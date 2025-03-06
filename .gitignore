@@ -1,0 +1,8 @@
+# Ignore les dossiers inutiles
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.pkl
+*.zip
+node_modules/
