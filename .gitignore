@@ -6,3 +6,4 @@ __pycache__/
 *.pkl
 *.zip
 node_modules/
+!svm_spam_model.pkl
