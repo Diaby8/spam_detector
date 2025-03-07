@@ -2,8 +2,11 @@ import streamlit as st  # 📌 Bibliothèque pour créer l'interface web
 import joblib  # 📌 Charger le modèle
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
+import nltk
+nltk.download('stopwords')  # Télécharger les stopwords
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+
 
 # 📌 Charger le modèle et le vectorizer TF-IDF
 model = joblib.load("svm_spam_model.pkl")
