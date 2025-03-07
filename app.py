@@ -4,6 +4,8 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 nltk.download('stopwords')  # Télécharger les stopwords
+nltk.download('wordnet')  # 📌 Télécharger WordNet pour la lemmatisation
+nltk.download('omw-1.4')  # 📌 Télécharger WordNet Data pour certaines lemmatisations
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
