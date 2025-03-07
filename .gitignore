@@ -7,3 +7,4 @@ __pycache__/
 *.zip
 node_modules/
 !svm_spam_model.pkl
+!tfidf_vectorizer.pkl
